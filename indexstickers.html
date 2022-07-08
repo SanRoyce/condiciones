@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/stylestickers.css">
     <title>Document</title>
 </head>
+
 <body>
+    <nav>
+        <div>
+            <p>Puedes llevar hasta 10 stickers en total</p>
+        </div>
+    </nav>
     <section>
-        
+        <div class="sticker1">
+            <img src="./assets/img/sticker1.webp" alt="sticker">
+            <input type="text" id="cantidad1">
+        </div>
+        <div class="sticker2">
+            <img src="./assets/img/sticker2.webp" alt="sticker">
+            <input type="text" id="cantidad2">
+        </div>
+        <div class="sticker3">
+            <img src="./assets/img/sticker3.webp" alt="sticker">
+            <input type="text" id="cantidad3">
+        </div>
     </section>
+    <main>
+    <div>
+        <p id="total"></p>
+        <button onclick="calcular()">Verificar</button>
+    </div>
+</main>
+
+
+    <script src="./assets/js/scriptstickers.js"></script>
 </body>
+
 </html>
