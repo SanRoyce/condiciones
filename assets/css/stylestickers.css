@@ -1,0 +1,33 @@
+body{
+    margin-top: 10%;
+}
+nav{
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    width: 150px;
+}
+.sticker1{
+    display: flex;
+    flex-direction: column;   
+}
+.sticker2{
+    display: flex;
+    flex-direction: column; 
+}
+.sticker3{
+    display: flex;
+    flex-direction: column; 
+}
